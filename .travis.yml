@@ -6,7 +6,7 @@ before_install:
 install:
   - poetry install
 script:
-  - setup.py sdist bdist_wheel
+  - python setup.py sdist bdist_wheel
   - poetry build
 deploy:
   - provider: script
