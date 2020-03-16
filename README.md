@@ -9,7 +9,7 @@ pip install empyrionbuildassistant
 
 Once installed, you an view the help using:
 ```
-python -m EmpyrionBuildAssistant -h
+python -m empyrionbuildassistant -h
 ```
 
 which should show:
@@ -38,7 +38,7 @@ Note: modname must be specified when using the bundleAndDeployMod option
 Yup, the most useful command that I use for debugging is
 
 ```shell script
-python -m EmpyrionBuildAssistant -clearLogs -watchLogs -launchServer
+python -m empyrionbuildassistant -clearLogs -watchLogs -launchServer
 ```
 
 Which clears the logs launches the server and creates a window that watches all of the changes to the server's log files.  When you press enter, it will terminate the server process (and its children)
