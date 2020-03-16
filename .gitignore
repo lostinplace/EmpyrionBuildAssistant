@@ -1,4 +1,5 @@
 DebugEnv/
+DevEnv/
 .idea/
 dist/
 **/__pycache__/
