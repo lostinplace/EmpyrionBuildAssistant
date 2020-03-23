@@ -98,6 +98,7 @@ def get_header(src_path):
 
 def print_from_offset(src_path, offset):
     header = get_header(src_path)
+    result = "*** Empyrion Build Assistant - NO DATA - Something Went wrong in initialization ***"
 
     with open(src_path, 'r') as fp:
         for line in read_until_newline(fp, offset):
